@@ -191,18 +191,18 @@ public sealed class ScentSystem : EntitySystem
                 continue;
             if (!LewdOkay(args.Examiner, proto.Lewd))
                 continue;
-            var smellColor = "Cyan";
+            var smellColor = "slateblue";
             if (proto.Stinky && proto.Lewd)
             {
-                smellColor = "Orange";
+                smellColor = "Magenta";
             }
             else if (proto.Lewd)
             {
-                smellColor = "Pink";
+                smellColor = "HotPink";
             }
             else if (proto.Stinky)
             {
-                smellColor = "Yellow";
+                smellColor = "GreenYellow";
             }
 
             var toAdd = _rng.Pick(proto.ScentsExamine);
@@ -250,6 +250,8 @@ public sealed class ScentSystem : EntitySystem
         }
         using (args.PushGroup("DanIsCool"))
         {
+            // cus its easier to edit colors from code
+            combinedDesc = $"[color=aquamarine]{combinedDesc}[/color]";
             args.PushMarkup(combinedDesc, 3); // between Physical and Personality
         }
     }

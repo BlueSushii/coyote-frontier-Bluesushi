@@ -1,9 +1,9 @@
 # She smells like butt
-scent-examine-one      = [color=mediumaquamarine]{CAPITALIZE(SUBJECT($scenter))} {CONJUGATE-BASIC($scenter, "smell", "smells")} like {$scent}.[/color]
+scent-examine-one      = {CAPITALIZE(SUBJECT($scenter))} {CONJUGATE-BASIC($scenter, "smell", "smells")} like {$scent}.
 # She smells like butt and cheese
-scent-examine-two      = [color=mediumaquamarine]{CAPITALIZE(SUBJECT($scenter))} {CONJUGATE-BASIC($scenter, "smell", "smells")} like {$scent1} and {$scent2}.[/color]
+scent-examine-two      = {CAPITALIZE(SUBJECT($scenter))} {CONJUGATE-BASIC($scenter, "smell", "smells")} like {$scent1} and {$scent2}.
 # She smells like butt, cheese, bingus, coffee, cheetos and chicken
-scent-examine-multiple = [color=mediumaquamarine]{CAPITALIZE(SUBJECT($scenter))} {CONJUGATE-BASIC($scenter, "smell", "smells")} like {$scents}, with a hint of {$lastscent}.[/color]
+scent-examine-multiple = {CAPITALIZE(SUBJECT($scenter))} {CONJUGATE-BASIC($scenter, "smell", "smells")} like {$scents}, with a hint of {$lastscent}.
 
 scent-verb-unignore-popup  = No longer ignoring {$smelly}'s scent.
 scent-verb-ignore-popup    = Now ignoring {$smelly}'s scent.

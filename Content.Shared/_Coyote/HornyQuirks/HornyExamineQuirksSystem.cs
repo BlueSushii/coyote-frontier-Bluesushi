@@ -111,6 +111,8 @@ public sealed class HornyExamineQuirksSystem : EntitySystem
             var briefLoc = Loc.GetString(
                 appearances[i].Item2,
                 ("them", hormy));
+            descriptiveLoc = $"[color=forestgreen]{descriptiveLoc}[/color]";
+            briefLoc =       $"[color=forestgreen]{briefLoc}[/color]";
             appearances[i] = (descriptiveLoc, briefLoc);
         }
         var descriptive = appearances[0].Item1;
