@@ -1,0 +1,22 @@
+
+- type: entity
+  name: Bbq Donk Pocket
+  parent: FoodDonkpocketBase
+  id: FoodDonkpocketBbqDIY
+  description: Add heat for the easiest backyard BBQ!
+  components:
+  - type: FlavorProfile
+    flavors:
+      - bread
+      - bbq
+      - wassail
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 10
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 8
+  - type: Sprite
+    sprite: _CS/Objects/Consumable/Food/Baked/diydonkpocket.rsi
+    state: bbq
