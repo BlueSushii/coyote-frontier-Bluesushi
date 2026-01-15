@@ -1,37 +1,37 @@
 # CS Signs
 
 - type: entity
-  parent: CSBaseSign
+  parent: NFBaseSign
   id: TSFSign
   name: TSF Sign
-  abstract: true
   components:
   - type: Sprite
+    sprite: _CS/Structures/Wallmounts/signs.rsi
     state: tsf_sign
 
 - type: entity
-  parent: CSBaseSign
+  parent: NFBaseSign
   id: Donkcosign
   name: Donk co Sign
-  abstract: true
   components:
   - type: Sprite
+    sprite: _CS/Structures/Wallmounts/signs.rsi
     state: donk_co_logo_small
 
 - type: entity
-  parent: CSBaseSign
+  parent: NFBaseSign
   id: Donkcologoleft
   name: Donk co logo left
-  abstract: true
   components:
   - type: Sprite
+    sprite: _CS/Structures/Wallmounts/signs.rsi
     state: donkcologo1
 
 - type: entity
-  parent: CSBaseSign
+  parent: NFBaseSign
   id: Donkcologoright
   name: Donk co logo right
-  abstract: true
   components:
   - type: Sprite
+    sprite: _CS/Structures/Wallmounts/signs.rsi
     state: donkcologo2
