@@ -222,7 +222,7 @@
   id: ShipyardGeode
   name: guide-entry-shipyard-geode
   text: "/ServerInfo/_NF/Guidebook/Shipyard/Geode.xml"
-  
+
 #- type: guideEntry
 #  id: ShipyardGourd
 #  name: guide-entry-shipyard-gourd
