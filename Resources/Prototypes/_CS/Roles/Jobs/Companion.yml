@@ -107,3 +107,5 @@
   - type: InterviewHologram
     job: Companion
 
+- type: playTimeTracker
+  id: JobCompanionInterview

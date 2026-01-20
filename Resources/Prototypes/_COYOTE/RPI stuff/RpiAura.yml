@@ -62,6 +62,14 @@
   minutesUntilDecayDelay: 20
   minutesUntilDecayToZero: 120
 
+- type: rpiAura
+  id: rpiAuraCompanion
+  multiplier: 3.0
+  maxDistance: 17.0
+  minutesTillFullEffect: 60
+  minutesUntilDecayDelay: 20
+  minutesUntilDecayToZero: 60
+
 # station princess makes everyone horny faster
 # not horny, paid more, wtf
 - type: rpiAura
