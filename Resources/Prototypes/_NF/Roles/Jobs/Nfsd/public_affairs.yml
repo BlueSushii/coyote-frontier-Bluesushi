@@ -45,6 +45,7 @@
     - BoxFolderPalBrown
     - BoxFolderNfsdForms
     - RubberStampPal
+    - EncryptionKeyCommand
 
 - type: chameleonOutfit
   id: PublicAffairsLiaisonChameleonOutfit

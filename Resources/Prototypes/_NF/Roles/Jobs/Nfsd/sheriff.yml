@@ -47,6 +47,7 @@
     - BaseSecurityUplinkRadioSheriff
     - RubberStampSheriff
     - ShipVoucherNfsdBailiff
+    - EncryptionKeyCommand
     - FrontierUplinkCoin5 # Coyote added 5 uplink coins to Sheriff
 
 - type: chameleonOutfit

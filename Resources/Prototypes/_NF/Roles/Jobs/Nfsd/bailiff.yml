@@ -52,6 +52,7 @@
     - FrontierUplinkCoin5 # Coyote added 5 starting FUCs to Bailiff
     - ShipVoucherNfsdBailiff
     - RubberStampBailiff
+    - EncryptionKeyCommand
 
 - type: chameleonOutfit
   id: BailiffChameleonOutfit
