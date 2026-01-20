@@ -113,6 +113,7 @@ nf-tips-dataset-111 = Remember, Nash Station is the entry point for all players.
 nf-tips-dataset-112 = If you're using an IFF console, remember to turn your IFF on when not purposefully skulking about, or you'll risk facing NFSD on your ship!
 nf-tips-dataset-113 = Going on an expedition alone is very risky! Make sure to always have a crewmate to save you in case you get ambushed by a xeno queen.
 nf-tips-dataset-114 = Expeditions can yield rare and useful items, and not all of them are legal. Try not to leave those lying on the floor, as NFSD might board you at some point!
+nf-tips-dataset-115 = Remember, small fuzzy foxes are free, just scoop one up and take it home! Also Shortband radio has a max range.
 nf-tips-dataset-116 = Every shuttle console has an internal traffic intercom. Make sure to use it!
 nf-tips-dataset-117 = If you get stranded in space, make sure to notify others using the radio! Getting depressed and falling into coma is never the best solution.
 nf-tips-dataset-118 = Salvage isn't just about whacking rocks. You can try to find large derelict stations, or try to bury deep into an unusual asteroid - but beware of the dangers that await you inside.
