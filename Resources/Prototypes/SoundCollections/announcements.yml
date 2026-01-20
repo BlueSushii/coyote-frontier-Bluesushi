@@ -8,4 +8,4 @@
 - type: soundCollection
   id: PowerOn
   files:
-  - /Audio/_COYOTE/PowerCheckEventEnd.ogg
+  - /Audio/Announcements/power_on.ogg
