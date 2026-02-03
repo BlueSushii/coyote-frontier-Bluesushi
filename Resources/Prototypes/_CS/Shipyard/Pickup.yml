@@ -6,14 +6,14 @@
 # A cheap shitbox for players to upgrade or use as is. A basic cheap pickup truck at the basic trim package. Nothing special to it at all.
 
 - type: vessel
-  id: jmwlightutilityvehicle
+  id: JMWPickup
   parent: BaseVessel
   name: LL0 JMW Pickup
   description: A simple pickup truck. Nothing in it is cutting edge or next generation. It is simple and idiot proof, fully future proofed.
-  price: 15000 
+  price: 15000
   category: Small
   group: Shipyard
-  shuttlePath: Resources\Maps\_CS\Shuttles\jmwlightutilityvehicle.yml
+  shuttlePath: Resources\Maps\_CS\Shuttles\JMWPickup.yml
   guidebookPage: Null
   class:
   - Civilian
@@ -21,9 +21,9 @@
   - Plasma
 
 - type: gameMap
-  id: jmwlightutilityvehicle
+  id: JMWPickup
   mapName: 'JMW Pickup'
-  mapPath: Resources\Maps\_CS\Shuttles\jmwlightutilityvehicle.yml
+  mapPath: Resources\Maps\_CS\Shuttles\JMWPickup.yml
   minPlayers: 0
   stations:
     JMW Pickup:
