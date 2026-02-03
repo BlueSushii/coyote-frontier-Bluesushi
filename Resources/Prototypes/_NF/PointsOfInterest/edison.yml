@@ -34,7 +34,7 @@
   minPlayers: 0
   stations:
     Edison:
-      stationProto: RecordsFrontierOutpost
+      stationProto: StandardFrontierDepot
       components:
         - type: StationNameSetup
           mapNameTemplate: 'Edison Power Plant'
@@ -46,5 +46,5 @@
         - type: StationJobs
           availableJobs:
             PlantManager: [ 1, 1 ]
-            PlantTechnician: [ 0, 0 ]
+            PlantTechnician: [ -1, -1 ]
 

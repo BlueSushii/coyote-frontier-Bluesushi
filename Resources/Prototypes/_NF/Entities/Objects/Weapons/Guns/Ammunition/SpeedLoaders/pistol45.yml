@@ -32,6 +32,7 @@
       ballistic-ammo: !type:Container
         ents: []
   - type: Item
+    size: Tiny #Coyote: Reduced to Tiny
     sprite: _NF/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Pistol45/speed_loader.rsi
     inhandVisuals:
       left:
@@ -117,7 +118,9 @@
 - type: entity
   id: NFSpeedLoaderPistol45Uranium
   name: "speed loader (.45 pistol, uranium)"
-  parent: NFBaseSpeedLoaderPistol45
+  parent:
+  - NFBaseSpeedLoaderPistol45
+  - BaseC4Contraband
   components:
   - type: BallisticAmmoProvider
     proto: NFCartridgePistol45Uranium

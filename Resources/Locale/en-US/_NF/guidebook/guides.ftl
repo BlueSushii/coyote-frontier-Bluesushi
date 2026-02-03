@@ -63,7 +63,11 @@ guide-entry-shipyard-comet = Comet
 guide-entry-shipyard-courier = Courier
 guide-entry-shipyard-construct = Construct
 guide-entry-shipyard-copperhead = Copperhead
+guide-entry-shipyard-crescent = Crescent
 guide-entry-shipyard-crossroads = Crossroads
+guide-entry-shipyard-dove = Dove
+guide-entry-shipyard-dragoon = Dragoon
+guide-entry-shipyard-dragonfly = Dragonfly
 guide-entry-shipyard-druid = Druid
 guide-entry-shipyard-eagle = Eagle
 guide-entry-shipyard-garden = Garden
@@ -105,6 +109,7 @@ guide-entry-shipyard-tide = Tide
 guide-entry-shipyard-vagabond = Vagabond
 guide-entry-shipyard-vitalis = Vitalis
 guide-entry-shipyard-yegorov = Yegorov
+guide-entry-shipyard-gourd = Gourd
 
 # Rules entries
 guide-entry-frontier-rule-zero-tolerance = Zero Tolerance

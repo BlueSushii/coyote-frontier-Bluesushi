@@ -23,6 +23,7 @@
   # AudioVisualCommunication
   - TelecomServerCircuitboard
   - NFHolopadShipMachineCircuitboard
+  - NFHolopadGridMachineCircuitboard
   - SurveillanceCameraRouterCircuitboard
   - SurveillanceCameraMonitorCircuitboard
   - SurveillanceWirelessCameraMonitorCircuitboard
@@ -35,6 +36,8 @@
   # RoboticCleanliness
   - BorgModuleAdvancedCleaning
   - PortablePumpMachineCircuitBoard
+  # IndustrialCutter
+  - CutterMachineCircuitboard
   # FauxAstroTiles
   - FauxTileAstroGrass
   - FauxTileMowedAstroGrass
@@ -154,6 +157,7 @@
   - CryostasisBeaker
   - SyringeCryostasis
   # MechanizedTreatment
+  - BorgModuleAdvancedChemical
   - BorgModuleAdvancedParamedic
   # RoboticCleanliness
   - PortablePumpMachineCircuitBoard
@@ -196,6 +200,8 @@
   # HardsuitsArmored
   - ClothingOuterHardsuitMercenary
   - ClothingOuterHardsuitPrivateSecurity
+  # HardsuitsOldWar
+  - ClothingOuterHardsuitSurplus
   # ArsenalStyle
   - ClothingEyesPunkInfoShades
   - ClothingOuterArmorPunkRandomized
@@ -216,6 +222,7 @@
   - ClothingOuterCoatBomberRandomized
   # HardsuitsArmoredAdvanced
   - ClothingOuterHardsuitScaf
+  - ClothingOuterHardsuitNoble
   # MiscellaneousItemsOrganization
   - NFPouchMercenary
   - NFPouchPrivateSecurity
@@ -327,8 +334,9 @@
   - DeviceDesynchronizer
   # MagnetsTechAdvanced
   - ClothingShoesBootsMagAdv
-  # HardsuitsExperimentalRD
+  # HardsuitsExperimentalProtection
   - ClothingOuterHardsuitRd
+  - ClothingOuterHardsuitHostileEnvironment
   # IndustrialEngineering
   - ProtolatheHyperConvectionMachineCircuitboard
   # AdvancedToolsTechnology
@@ -359,6 +367,8 @@
   # MeatManipulation
   - FatExtractorMachineCircuitboard
   - BiogeneratorMachineCircuitboard
+  # IndustrialCutter
+  - CutterMachineCircuitboard
   # FauxAstroTiles
   - FauxTileAstroGrass
   - FauxTileMowedAstroGrass
@@ -540,6 +550,3 @@
   # HardsuitsAdvanced
   - ClothingOuterHardsuitCap
   - ImpCoffeeMachineCircuitboard #imp
-  # CS: Robot Topicals
-  - RepairPatch
-  - RepairSpray

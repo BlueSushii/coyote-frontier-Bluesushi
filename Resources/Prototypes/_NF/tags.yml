@@ -161,7 +161,13 @@
 - type: Tag
   id: NFPaperStampProtected
 
+- type: Tag
+  id: NFGlowshroomSpores
+
 # region Blueprints
+- type: Tag
+  id: NFBlueprintAdvanced
+
 - type: Tag
   id: NFBlueprintMedicalTechfab
 

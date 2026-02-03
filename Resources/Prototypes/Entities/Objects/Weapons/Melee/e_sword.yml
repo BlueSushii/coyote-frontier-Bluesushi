@@ -41,8 +41,8 @@
         variation: 0.125
     activatedDamage:
       types:
-        Slash: 15
-        Heat: 15
+        Slash: 22
+        Heat: 22
         Structural: 20
   - type: MeleeWeapon
     wideAnimationRotation: -135
@@ -76,7 +76,7 @@
 
 - type: entity
   name: energy sword
-  parent: [BaseMeleeWeaponEnergy, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
+  parent: [BaseMeleeWeaponEnergy, BaseC4Contraband] # Frontier: BaseSyndicateContraband<BaseC4Contraband
   id: EnergySword
   description: A very loud & dangerous sword with a beam made of pure, concentrated plasma. Cuts through unarmored targets like butter.
   components:
@@ -94,7 +94,7 @@
 
 - type: entity
   name: energy dagger
-  parent: [BaseMeleeWeaponEnergy, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
+  parent: [BaseMeleeWeaponEnergy, BaseC1Contraband] # Frontier: BaseSyndicateContraband<BaseC4Contraband
   id: EnergyDaggerLoud
   description: A not as loud and dangerous dagger with a beam made of pure, concentrated plasma. This one is completely undisguised.
   components:
@@ -115,8 +115,8 @@
         variation: 0.250
     activatedDamage:
         types:
-            Slash: 10
-            Heat: 10
+            Slash: 15 # buffed most melee's damage by ~1.5x
+            Heat: 15 # buffed most melee's damage by ~1.5x
     deactivatedSecret: true
   - type: ItemToggleActiveSound
     activeSound:
@@ -158,7 +158,7 @@
 
 - type: entity
   name: pen
-  parent: [BaseMeleeWeaponEnergy, BaseC3SyndicateContraband] # Frontier: added BaseC3SyndicateContraband
+  parent: [BaseMeleeWeaponEnergy, BaseC3Contraband] # Frontier: added BaseC4Contraband
   id: EnergyDagger
   suffix: E-Dagger
   description: 'A dark ink pen.'
@@ -185,8 +185,8 @@
         variation: 0.250
     activatedDamage:
       types:
-        Slash: 10
-        Heat: 10
+        Slash: 15 # buffed most melee's damage by ~1.5x
+        Heat: 15 # buffed most melee's damage by ~1.5x
   - type: ComponentToggler
     components:
     - type: Sharp
@@ -228,7 +228,7 @@
     hideValues: true # Frontier
 
 - type: entity
-  parent: [BaseItem, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
+  parent: [BaseItem, BaseC1Contraband] # Frontier: BaseSyndicateContraband<BaseC4Contraband
   id: EnergyDaggerBox
   name: e-dagger box
   suffix: E-Dagger
@@ -247,15 +247,15 @@
 
 - type: entity
   name: energy cutlass
-  parent: [BaseMeleeWeaponEnergy, BaseC3PirateContraband] # Frontier: BaseMajorContraband<BaseC3PirateContraband
+  parent: [BaseMeleeWeaponEnergy, BaseC2Contraband] # Frontier: BaseMajorContraband<BaseC3Contraband
   id: EnergyCutlass
   description: An exotic energy weapon.
   components:
   - type: ItemToggleMeleeWeapon
     activatedDamage:
         types:
-            Slash: 10
-            Heat: 12
+            Slash: 15 # buffed most melee's damage by ~1.5x
+            Heat: 18 # buffed most melee's damage by ~1.5x
     deactivatedSecret: true
   - type: Sprite
     sprite: Objects/Weapons/Melee/e_cutlass.rsi
@@ -271,7 +271,7 @@
 
 - type: entity
   name: double-bladed energy sword
-  parent: [BaseMeleeWeaponEnergy, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
+  parent: [BaseMeleeWeaponEnergy, BaseC2Contraband] # Frontier: BaseSyndicateContraband<BaseC4Contraband
   id: EnergySwordDouble
   description: Syndicate Command Interns thought that having one blade on the energy sword was not enough. This can be stored in pockets.
   components:
@@ -294,9 +294,9 @@
         variation: 0.250
     activatedDamage:
         types:
-            Slash: 12
-            Heat: 12
-            Structural: 15
+            Slash: 18 # buffed most melee's damage by ~1.5x
+            Heat: 18 # buffed most melee's damage by ~1.5x
+            Structural: 15 # buffed most melee's damage by ~1.5x
   - type: ItemToggleActiveSound
     activeSound:
       path: /Audio/Weapons/ebladehum.ogg
@@ -357,9 +357,9 @@
         variation: 0.250
     activatedDamage:
       types:
-        Slash: 20
-        Heat: 20
-        Structural: 20
+        Slash: 30 # buffed most melee's damage by ~1.5x
+        Heat: 30 # buffed most melee's damage by ~1.5x
+        Structural: 25
   - type: MeleeRequiresWield
   - type: HeldSpeedModifier #slowdown is what balances this compared to a dsword
     walkModifier: 0.6

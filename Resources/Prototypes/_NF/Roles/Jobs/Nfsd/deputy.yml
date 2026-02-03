@@ -8,11 +8,7 @@
       time: 43200 # 12 hours
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 3600 # frontier: 6 hours | CS: 1 hour
-#  alternateRequirementSets: # NOTE: this is a frontier added workaround to let noncadets get into NFSD because they're doing some gmod military roleplay. Shit. COPILOT STOP OFFERING SUGGESTIONS I AM GOING CUM IN YOUR CIRCUITS.
-#    longerPlaytimeLessSec:
-#    - !type:OverallPlaytimeRequirement
-#      time: 360000 # 100 hours
+      time: 14400 # 4 hours
   startingGear: DeputyGear
   icon: JobIconDeputy
   supervisors: job-supervisors-sergeant
@@ -30,6 +26,9 @@
   - !type:AddRpiJobModifierSpecial
     modifiersToAdd:
     - rpiJobModifierDeputy
+  - !type:AddComponentSpecial
+    components:
+    - type: IsNfsd
 
 - type: startingGear
   id: DeputyGear
@@ -38,8 +37,8 @@
   storage:
     back:
     - Flash
-    - NFMagazineHighCapacityPistol35Overpressure
-    - NFMagazineHighCapacityPistol35Rubber
+    - CSMagazinePistol40Overpressure # Coyote NFMagazineHighCapacityPistol35Overpressure < CSMagazinePistol40Overpressure
+    - CSMagazinePistol40Rubber # Coyote NFMagazineHighCapacityPistol35Rubber < CSMagazinePistol40Rubber
     - BaseSecurityUplinkRadioOfficer # Coyote added uplink for deputies, removed their starting uplink coins
 
 - type: chameleonOutfit

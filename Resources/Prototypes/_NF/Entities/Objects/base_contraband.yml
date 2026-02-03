@@ -12,6 +12,15 @@
     allowedDepartments: [ Civilian, Security, Command, Frontier, CentralCommand ]
 
 - type: entity
+  id: BaseC1ContrabandUnredeemable
+  abstract: true
+  components:
+  - type: Contraband
+    severity: Class1
+    # Pretty much everyone.
+    allowedDepartments: [ Civilian, Security, Command, Frontier, CentralCommand ]
+
+- type: entity
   parent: BaseC1Contraband
   id: BaseClearContraband
   abstract: true
@@ -49,7 +58,7 @@
   components:
   - type: Contraband
     severity: Class2Expedition
-    turnInValues: &oneFUC
+    turnInValues:
       FrontierUplinkCoin: 1
       Doubloon: 1
 
@@ -59,9 +68,10 @@
   abstract: true
   components:
   - type: Contraband
-    turnInValues: &noFUCs
-      FrontierUplinkCoin: 0
-      Doubloon: 0
+    severity: Class2Expedition
+    turnInValues: &oneFUC
+      FrontierUplinkCoin: 1
+      Doubloon: 1
 # endregion
 
 # region Class 3 Objects
@@ -90,7 +100,10 @@
   abstract: true
   components:
   - type: Contraband
-    turnInValues: *oneFUC
+    severity: Class3Expedition
+    turnInValues:
+      FrontierUplinkCoin: 2
+      Doubloon: 2
 
 - type: entity
   parent: BaseC3ContrabandUnredeemable
@@ -98,7 +111,9 @@
   abstract: true
   components:
   - type: Contraband
-    turnInValues: *noFUCs
+    turnInValues:
+      FrontierUplinkCoin: 0
+      Doubloon: 0
 
 - type: entity
   parent: BaseC3ContrabandUnredeemable
@@ -114,7 +129,9 @@
   abstract: true
   components:
   - type: Contraband
-    turnInValues: *oneFUC
+    turnInValues:
+      FrontierUplinkCoin: 1
+      Doubloon: 1
 
 - type: entity
   parent: BaseC3CultContraband
@@ -122,7 +139,9 @@
   abstract: true
   components:
   - type: Contraband
-    turnInValues: *noFUCs
+    turnInValues:
+      FrontierUplinkCoin: 0
+      Doubloon: 0
 
 - type: entity
   parent: BaseC3ContrabandUnredeemable
@@ -131,7 +150,9 @@
   components:
   - type: Contraband
     severity: Class3Pirate
-    turnInValues: *noFUCs
+    turnInValues:
+      FrontierUplinkCoin: 0
+      Doubloon: 0
 
 - type: entity
   parent: BaseC3PirateContrabandNoValue
@@ -139,7 +160,9 @@
   abstract: true
   components:
   - type: Contraband
-    turnInValues: *oneFUC
+    turnInValues:
+      FrontierUplinkCoin: 1
+      Doubloon: 1
 
 - type: entity
   parent: BaseC3ContrabandUnredeemable
@@ -155,7 +178,9 @@
   abstract: true
   components:
   - type: Contraband
-    turnInValues: *noFUCs
+    turnInValues:
+      FrontierUplinkCoin: 0
+      Doubloon: 0
 
 - type: entity
   parent: BaseC3SyndicateContrabandUnredeemable
@@ -163,7 +188,9 @@
   abstract: true
   components:
   - type: Contraband
-    turnInValues: *oneFUC
+    turnInValues:
+      FrontierUplinkCoin: 1
+      Doubloon: 1
 
 - type: entity
   parent: BaseC3ContrabandUnredeemable
@@ -180,7 +207,9 @@
   components:
   - type: Contraband
     severity: Class3Wizard
-    turnInValues: *oneFUC
+    turnInValues:
+      FrontierUplinkCoin: 1
+      Doubloon: 1
 # endregion
 
 # region Class 3 Mobs
@@ -208,7 +237,9 @@
   abstract: true
   components:
   - type: Contraband
-    turnInValues: *noFUCs
+    turnInValues:
+      FrontierUplinkCoin: 0
+      Doubloon: 0
 
 - type: entity
   parent: BaseC3Contraband
@@ -232,3 +263,31 @@
       Doubloon: 1
     hideCarryStatus: true
 # endregion
+
+- type: entity
+  id: BaseC4ContrabandUnredeemable
+  abstract: true
+  components:
+  - type: Contraband
+    severity: Class4General
+
+- type: entity
+  id: BaseC4Contraband
+  parent: BaseC4ContrabandUnredeemable
+  abstract: true
+  components:
+  - type: Contraband
+    severity: Class4General
+    turnInValues:
+      FrontierUplinkCoin: 2
+      Doubloon: 2
+
+- type: entity
+  id: NotContraband
+  abstract: true
+  components:
+  - type: Contraband
+    severity: NotContraband
+  - type: UnContraband
+
+
