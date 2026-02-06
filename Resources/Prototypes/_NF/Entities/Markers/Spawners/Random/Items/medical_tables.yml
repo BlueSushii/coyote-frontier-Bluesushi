@@ -220,7 +220,7 @@
     - id: ScalpelShiv
     - id: WelderMini
     - id: SawImprov
-    - id: NFWeaponShotgunHandmade
+    - id: NFWeaponShotgunSawn #Coyote
       weight: 0.05
 
 - type: entityTable
@@ -413,6 +413,14 @@
     - id: JugMercury
     - id: JugSilver
     - id: JugWeldingFuel
+    # Coyote: Doubled entries of 'useful' chemicals
+    - id: JugCarbon
+    - id: JugSilicon
+    - id: JugOxygen
+    - id: JugNitrogen
+    - id: JugHydrogen
+    - id: JugSugar
+    - id: JugEthanol
 
 # region Bottles
 - type: entityTable
@@ -585,8 +593,8 @@
       children:
       - id: MimePowersImplanter
       - id: BibleUserImplanter
-      - id: DeathAcidifierImplanter
-      - id: MicroBombImplanter
+      #- id: DeathAcidifierImplanter # Coyote: it gibs you
+      #- id: MicroBombImplanter # Coyote: it gibs you
       - id: FakeMindShieldImplanter
       - id: DeathRattleImplanter
       - id: EmpImplanter
@@ -675,6 +683,8 @@
       - id: ClothingBackpackDuffelGenetics
       - id: ClothingBackpackDuffelTrauma
       - id: ClothingBackpackDuffelChemistry
+      - id: MedicalPouch # Coyote
+      - id: CorpsmanMedicalPouch # Coyote
         weight: 0.1
     # Messenger bags
     - !type:GroupSelector
@@ -1030,7 +1040,9 @@
       - id: CrateEvaKitParamedic
       - id: CrateChemistryVials
       - id: CrateChemistrySecureKitChemist
-      - id: CrateEvaKitCmo
+      - id: MedicalTechFabFlatpack # Coyote
+      - id: VendingMachineMedicalFlatpack # Coyote
+      - id: VendingMachineChemicalsFlatpack # Coyote
         weight: 0.01
     # Unique
     - !type:GroupSelector
@@ -1136,6 +1148,7 @@
       - id: VendingMachineRobotics
       - id: VendingMachineMedical
       - id: VendingMachineCiviMedPlus
+      - id: VendingMachineChemicals # Coyote
     # Frame
     - !type:NestedSelector
       tableId: TableDungeonLootGeneralFrameMachine
