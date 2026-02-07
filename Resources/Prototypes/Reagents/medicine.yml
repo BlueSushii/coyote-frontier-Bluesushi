@@ -150,7 +150,7 @@
       - !type:HealthChange
         conditions:
         - !type:ReagentThreshold
-          min: 15
+          min: 21
         damage:
           types:
             Asphyxiation: 0.5
@@ -163,7 +163,7 @@
       - !type:Jitter
         conditions:
         - !type:ReagentThreshold
-          min: 15
+          min: 21
       - !type:Drunk
 
 - type: reagent
@@ -470,9 +470,9 @@
       - !type:HealthChange
         damage:
           types:
-            Heat: -0.33
-            Shock: -0.33
-            Cold: -0.33
+            Heat: -0.5
+            Shock: -0.5
+            Cold: -0.5
       - !type:SatiateThirst
         factor: -10
         conditions:
@@ -847,13 +847,24 @@
   color: "#fcf7f9"
   metabolisms:
     Medicine:
+      metabolismRate : 0.125
       effects:
       - !type:EvenHealthChange
         damage:
-          Burn: -2
-          Toxin: -2
-          Airloss: -2
-          Brute: -2
+          Burn: -0.5
+          Toxin: -0.5
+          Airloss: -0.5
+          Brute: -0.5
+      - !type:HealthChange
+        conditions:
+        - !type:ReagentThreshold
+          min: 30
+        damage:
+          groups:
+            Burn: 1
+            Toxin: 1
+            Airloss: 1
+            Brute: 1
 
 - type: reagent
   id: Ultravasculine
