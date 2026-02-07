@@ -150,7 +150,7 @@
       - !type:HealthChange
         conditions:
         - !type:ReagentThreshold
-          min: 21
+          min: 21 # Coyote: Allows for a larger quantity of it to be used before OD, giving it a pretty nice buff overall
         damage:
           types:
             Asphyxiation: 0.5
@@ -163,7 +163,7 @@
       - !type:Jitter
         conditions:
         - !type:ReagentThreshold
-          min: 21
+          min: 21 # Ditto
       - !type:Drunk
 
 - type: reagent
@@ -468,7 +468,7 @@
     Medicine:
       effects:
       - !type:HealthChange
-        damage:
+        damage: # Coyote: Buffs its healing by a small amount.
           types:
             Heat: -0.5
             Shock: -0.5
@@ -820,6 +820,7 @@
             Heat: -0.33
             Shock: -0.33
             Cold: -0.33
+            Radiation: -0.1 # Coyote: Heals a minuscule amount of radiation, also shuts up medibots.
 
 - type: reagent
   id: Lipozine
@@ -847,15 +848,15 @@
   color: "#fcf7f9"
   metabolisms:
     Medicine:
-      metabolismRate : 0.125
+      metabolismRate : 0.125 # Coyote: Slower
       effects:
       - !type:EvenHealthChange
-        damage:
+        damage: # Coyote: Same amount overall, just slower.
           Burn: -0.5
           Toxin: -0.5
           Airloss: -0.5
           Brute: -0.5
-      - !type:HealthChange
+      - !type:HealthChange # Coyote: OD.
         conditions:
         - !type:ReagentThreshold
           min: 30
