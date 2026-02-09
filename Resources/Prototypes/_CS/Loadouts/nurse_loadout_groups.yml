@@ -12,6 +12,6 @@
   name: loadout-group-contractor-hand-items
   minLimit: 0
   loadouts:
-  - BigHypo
+  - LoadoutExperimentalHypo
   subgroups:
   - ContractorHandItems

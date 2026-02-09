@@ -1,5 +1,5 @@
 - type: loadout
-  id: BigHypo
+  id: LoadoutExperimentalHypo
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT3
