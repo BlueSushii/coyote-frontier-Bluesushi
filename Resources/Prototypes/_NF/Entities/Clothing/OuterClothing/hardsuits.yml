@@ -153,9 +153,9 @@
   components:
   - type: Sprite
     # sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_bronze.rsi
-    sprite: _Mono/Clothing/OuterClothing/Hardsuits/m82c_bronze.rsi
+    sprite: _Mono/Clothing/OuterClothing/Hardsuits/m82c_bronze.rsi # CB - Update patrol suit sprites
   - type: Clothing
-    sprite: _Mono/Clothing/OuterClothing/Hardsuits/m82c_bronze.rsi
+    sprite: _Mono/Clothing/OuterClothing/Hardsuits/m82c_bronze.rsi # CB - Update patrol suit sprites
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitNfsdBronze
   - type: ExplosionResistance
@@ -180,9 +180,9 @@
   description: The standard-issue NFSD space proof suit for patrol duty. This silver variant has officer rank markings.
   components:
   - type: Sprite
-    sprite: _Mono/Clothing/OuterClothing/Hardsuits/m82c_silver.rsi
+    sprite: _Mono/Clothing/OuterClothing/Hardsuits/m82c_silver.rsi # CB - Update patrol suit sprites
   - type: Clothing
-    sprite: _Mono/Clothing/OuterClothing/Hardsuits/m82c_silver.rsi
+    sprite: _Mono/Clothing/OuterClothing/Hardsuits/m82c_silver.rsi # CB - Update patrol suit sprites
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitNfsdSilver
 
@@ -193,9 +193,9 @@
   description: The standard-issue NFSD space proof suit for patrol duty. This gold variant has supervisor rank markings.
   components:
   - type: Sprite
-    sprite: _Mono/Clothing/OuterClothing/Hardsuits/m82c_gold.rsi
+    sprite: _Mono/Clothing/OuterClothing/Hardsuits/m82c_gold.rsi # CB - Update patrol suit sprites
   - type: Clothing
-    sprite: _Mono/Clothing/OuterClothing/Hardsuits/m82c_gold.rsi
+    sprite: _Mono/Clothing/OuterClothing/Hardsuits/m82c_gold.rsi # CB - Update patrol suit sprites
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitNfsdGold
 
@@ -219,9 +219,9 @@
   description: The standard-issue NFSD space proof suit for patrol duty. This brighter variant has brigmedic rank markings.
   components:
   - type: Sprite
-    sprite: _Mono/Clothing/OuterClothing/Hardsuits/m82b.rsi
+    sprite: _Mono/Clothing/OuterClothing/Hardsuits/m82b.rsi # CB - Update patrol suit sprites
   - type: Clothing
-    sprite: _Mono/Clothing/OuterClothing/Hardsuits/m82b.rsi
+    sprite: _Mono/Clothing/OuterClothing/Hardsuits/m82b.rsi # CB - Update patrol suit sprites
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitNfsdBrigmedic
 
