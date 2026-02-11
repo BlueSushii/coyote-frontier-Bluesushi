@@ -113,10 +113,10 @@
   - type: RadiationSource
   - type: DeviceLinkSource
     ports:
-    - signal-port-name-supermatter-inactive
-    - signal-port-name-supermatter-normal
-    - signal-port-name-supermatter-caution
-    - signal-port-name-supermatter-warning
-    - signal-port-name-supermatter-danger
-    - signal-port-name-supermatter-emergency
-    - signal-port-name-supermatter-delaminating
+    - SupermatterInactive
+    - SupermatterNormal
+    - SupermatterCaution
+    - SupermatterWarning
+    - SupermatterDanger
+    - SupermatterEmergency
+    - SupermatterDelaminating
