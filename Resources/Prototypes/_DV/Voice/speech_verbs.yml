@@ -56,8 +56,8 @@
 # Supermatter verbs for sending warnings when damaged or delaming.
 - type: speechVerb
   id: Supermatter
-  name: chat-speech-verb-supermatter
+  name: chat-speech-verb-name-supermatter
   speechVerbStrings:
-  - beeps worryingly
-  - crackles ominously
-  - shimmers menacingly
+  - chat-speech-verb-chitinid-1
+  - chat-speech-verb-chitinid-2
+  - chat-speech-verb-chitinid-3
