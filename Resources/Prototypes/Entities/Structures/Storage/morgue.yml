@@ -44,14 +44,14 @@
       path: /Audio/Items/deconstruct.ogg
     openSound:
       path: /Audio/Items/deconstruct.ogg
-  - type: Damageable
+  - type: Damageable # Coyote Sector
     damageContainer: StructuralInorganic
     damageModifierSet: Metallic
-  - type: Destructible
+  - type: Destructible # Coyote Sector
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 200 # Should be relatively tanky given its weight
+        damage: 200 # Same health as Emergency Pod
       behaviors:
       - !type:DoActsBehavior
         acts: ["Destruction"]
