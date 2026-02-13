@@ -12,12 +12,12 @@
   id: JMWPickup
   parent: BaseVessel
   name: LL0 JMWPickup
-  description: "A simple pickup truck. Nothing in it is cutting edge or next generation. It is simple and idiot proof, fully future proofed."
+  description: A simple pickup truck. Nothing in it is cutting edge or next generation. It is simple and idiot proof, fully future proofed.
   price: 15000
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_CS/Shuttles/JMWPickup.yml
-  guidebookPage: Null
+  guidebookPage: null
   class:
   - Civilian
   engine:
