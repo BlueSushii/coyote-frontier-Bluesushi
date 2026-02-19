@@ -222,7 +222,7 @@
     tags:
       - Syndicate
   - type: RadarConsole
-    maxRange: 384
+    maxRange: 640 # Coyote (512+128)
   - type: WorldLoader
     radius: 1536
   - type: PointLight
@@ -255,7 +255,7 @@
     components:
       - type: CargoShuttle
   - type: RadarConsole
-    maxRange: 256
+    maxRange: 512 # Coyote
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -901,7 +901,7 @@
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
       state: generic_panel_open
   - type: RadarConsole
-    maxRange: 256 # Frontier
+    maxRange: 512 # Coyote
     maxIffRange: 512 # Frontier
   - type: ActivatableUI
     key: enum.RadarConsoleUiKey.Key

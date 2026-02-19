@@ -66,7 +66,7 @@
     balance:
       SiliconMemory: 30
   - type: RadarConsole
-    maxRange: 256
+    maxRange: 512 # Coyote
     followEntity: true
   - type: TypingIndicator
     proto: robot
