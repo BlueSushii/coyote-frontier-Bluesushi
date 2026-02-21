@@ -1,6 +1,6 @@
 #region fireball scroll
 - type: entity
-  parent: SpellScrollRolled
+  parent: [BaseC3WizardContraband SpellScrollRolled]
   id: SpellScrollRolledFireball
   name: scroll of fireball
   description: |-
