@@ -20,7 +20,7 @@
       shader: unshaded
   - type: Explosive
     explosionType: Default
-    maxIntensity: 35 # Coyote
+    maxIntensity: 40
     intensitySlope: 6
     totalIntensity: 200
     maxTileBreak: 0

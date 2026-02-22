@@ -104,7 +104,7 @@
 
 #region blue curacao staff
 - type: entity
-  parent: [ BaseC3WizardContraband, WeaponInertStaffBase ]
+  parent: [ BaseC2WizardContraband, WeaponInertStaffBase ] # Coyote: C3 to C2
   id: WeaponInertStaffWizardElementalAdept
   name: inert adept-wizard blue curacao elemental staff
   components:
@@ -152,7 +152,7 @@
 
 #region ice staff
 - type: entity
-  parent: [ BaseC3WizardContraband, WeaponInertStaffBase ]
+  parent: [ BaseC2WizardContraband, WeaponInertStaffBase ] # Coyote: C3 to C2
   id: WeaponInertStaffWizardIceAdept
   name: inert adept-wizard ice staff
   components:
@@ -209,7 +209,7 @@
 
 #region lightning staff
 - type: entity
-  parent: [ BaseC3WizardContraband, WeaponInertStaffBase ]
+  parent: [ BaseC2WizardContraband, WeaponInertStaffBase ] # Coyote: C3 to C2
   id: WeaponInertStaffWizardLightningAdept
   name: inert adept-wizard lightning staff
   components:
@@ -256,7 +256,7 @@
 
 #region soap staff
 - type: entity
-  parent: [ BaseC3WizardContraband, WeaponInertStaffBase ]
+  parent: [ BaseC2WizardContraband, WeaponInertStaffBase ] # Coyote: C3 to C2
   id: WeaponInertStaffWizardSoapAdept
   name: inert adept-wizard soap staff
   components:
@@ -304,7 +304,7 @@
 
 #region magic bolt staff
 - type: entity
-  parent: [ BaseC3WizardContraband, WeaponInertStaffBase ]
+  parent: [ BaseC2WizardContraband, WeaponInertStaffBase ] # Coyote: C3 to C2
   id: WeaponInertStaffWizardBoltMagicAdept
   name: inert adept-wizard magic bolt staff
   components:
@@ -352,7 +352,7 @@
 
 #region fire bolt staff
 - type: entity
-  parent: [ BaseC3WizardContraband, WeaponInertStaffBase ]
+  parent: [ BaseC2WizardContraband, WeaponInertStaffBase ] # Coyote: C3 to C2
   id: WeaponInertStaffWizardBoltFireAdept
   name: inert adept-wizard fire bolt staff
   components:
@@ -409,7 +409,7 @@
 
 #region caustic beam staff
 - type: entity
-  parent: [ BaseC3WizardContraband, WeaponInertStaffBase ]
+  parent: [ BaseC2WizardContraband, WeaponInertStaffBase ] # Coyote: C3 to C2
   id: WeaponInertStaffWizardCausticAdept
   name: inert adept-wizard caustic beam staff
   components:
@@ -466,7 +466,7 @@
 
 #region brick staff
 - type: entity
-  parent: [ BaseC3WizardContraband, WeaponInertStaffBase ]
+  parent: [ BaseC2WizardContraband, WeaponInertStaffBase ] # Coyote: C3 to C2
   id: WeaponInertStaffWizardBrickAdept
   name: inert brick wizard staff
   components:
