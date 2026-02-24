@@ -59,7 +59,8 @@
 
 #Coyote adding of the bluespace trashbag
 - type: entity
-  name: trash bag
+  name: Bluespace Trash Bag
+  description: A trash bag that has been imbued with bluespace crystals, allowing it to hold an incredible amount of garbage within a small physical volume.
   id: BluespaceTrashBag
   parent: TrashBag
   components:
@@ -76,8 +77,13 @@
     quickInsert: true
     areaInsert: true
     areaInsertRadius: 5
+  - type: MagnetPickup # Frontier
+    magnetEnabled: false # Frontier
+    range: 3
   - type: StorageFillVisualizer
     fillBaseName: blue-icon
+  -item:
+    size: Huge
 
 - type: entity
   name: spell of all-consuming cleanliness
