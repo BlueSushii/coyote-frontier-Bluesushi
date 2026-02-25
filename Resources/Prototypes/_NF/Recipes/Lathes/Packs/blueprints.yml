@@ -352,8 +352,6 @@
   - HydroponicsTrayMachineCircuitboard
   - ReagentGrinderIndustrialMachineCircuitboard
   - PlantAnalyzer
-  # Janitorial
-  - BluespaceTrashBag # Coyote
   # AudioVisualCommunication
   - SurveillanceWirelessCameraMovableCircuitboard
   - SurveillanceWirelessCameraAnchoredCircuitboard
@@ -379,6 +377,7 @@
   - FauxTileAstroSnow
   - FauxTileAstroAsteroidSand
   # AdvancedCleaning
+  - BluespaceTrashBag
   - AdvMopItem
   - MegaSprayBottle
   - ReinforcedJug

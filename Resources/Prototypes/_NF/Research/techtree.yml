@@ -204,7 +204,6 @@
   - ClothingBackpackDuffelHolding
   - ClothingBackpackMessengerHolding
   - ConstructionBagOfHolding
-  - BluespaceTrashBag # Coyote
   technologyPrerequisites:
   - NFMiscellaneousItemsOrganization
   position: 3, 3
@@ -1057,13 +1056,14 @@
 
 - type: technology
   id: NFAdvancedHydroponicsStorge
-  name: nf-research-technology-advanced-botanical-storage
+  name: nf-research-technology-advanced-service-bluespace-storage
   entityIcon: PlantBagOfHolding
   discipline: NFService
   tier: 1
   cost: 2500
   recipeUnlocks:
   - PlantBagOfHolding
+  - BluespaceTrashBag # Coyote
   prerequisiteLineType: Diagonal
   technologyPrerequisites:
   - NFAdvancedHydroponicsEquipment
