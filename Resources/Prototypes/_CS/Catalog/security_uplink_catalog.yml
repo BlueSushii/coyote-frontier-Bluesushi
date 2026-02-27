@@ -70,3 +70,19 @@
     - !type:BuyerJobCondition
       whitelist:
         - Brigmedic
+
+- type: listing #coyote offering better selling options
+  id: UplinkSecurityCash10000
+  name:  uplink-security-cash10000-name
+  description: uplink-security-cash10000-desc
+  productEntity: SpaceCash10000
+  icon: { sprite: Objects/Economy/cash.rsi, state: cash_10000 }
+  cost:
+    FrontierUplinkCoin: 10 # bulk sell fucs
+  categories:
+    - UplinkSecurityUtility
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
