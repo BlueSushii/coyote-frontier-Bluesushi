@@ -33,7 +33,3 @@ uplink-pistol-magazine-40-desc = Pistol magazine with 16 cartridges. Compatible 
 
 uplink-pistol-magazine-c20r-40-name = SMG magazine (.40 auto)
 uplink-pistol-magazine-c20r-40-desc = SMG magazine with 30 cartridges. Compatible with C-20r.
-
-#Spessos
-uplink-security-cash10000-name = 10,000 Spesos
-uplink-security-cash10000-desc = Cold, hard cash.
